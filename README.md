@@ -1,29 +1,29 @@
-菜单管理系统<br>  
+Menu Management System<br>
 ==
-是用于餐厅的菜单管理系统，包含了四个模块<br>  
+It is a menu management system for restaurants, including four modules<br>
 
-1.桌位模块<br>  
+1. Table module<br>
 ---
  
- 桌位模块主要是用于管理桌位的模块，包括点菜到结账的流程<br>  
- 将桌位人数设置为`0`可以滞空当前桌位<br>
+  The table module is mainly used to manage tables, including the process from ordering to checkout<br>
+  Set the number of people at the table to `0` to leave the current table empty<br>
  
 
-2.账单模块<br>  
+2.Billing module<br>
 ---
  
- 账单模块记录了每一天的帐单汇总，同时提供了年月日账单的统计，在日账单内可以查看当日的所有消费详情，还提供了按日期或日期区间搜索账单的功能<br>  
+  The bill module records a summary of each day's bills, and also provides statistics on year, month and day bills. In the daily bill, you can view all consumption details of the day, and also provides the function of searching bills by date or date range<br>
 
-3.日常维护模块<br>  
+3. Daily maintenance module<br>
 --
 
-提供了桌位菜单用户供应商的配置功能，也就是增删改查<br>  
-添加菜品时，添加酒水类时，可以选择进货内的酒水，这样的话在结账后若客人点了该酒水，会将销售信息记录在酒水库存内的销售信息里<br>
+Provides configuration functions for table menu users and suppliers, that is, adding, deleting, modifying and checking<br>
+When adding dishes or drinks, you can select the drinks in the inventory. In this case, if the customer orders the drink after checkout, the sales information will be recorded in the sales information in the drink inventory<br>
 
-4.酒水库存模块<br>  
- --
+4. Drinks inventory module<br>
+  --
 
-查看添加酒水的进销存信息<br>  
+Check the purchase, sales and inventory information of added drinks<br>
 
 
 
