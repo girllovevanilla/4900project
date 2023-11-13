@@ -26,13 +26,7 @@
 查看添加酒水的进销存信息<br>  
 
 
-使用方法<br>  
---
-1.将`mysql.sql`文件导入Mysql数据库生成数据库<br>
-2.在电脑内下载`redis`并注册成服务自动启动<br>
-3.更改`resources`内`database.properties`数据库配置文件的账号密码为自己的数据库账号密码<br>
-4.更改`redis-context.xml`配置文件，如果redis没有设置密码则把`p:password="${redis.password}"` 这个属性删除，否则在`redis.properties`配置文件内把密码更改成自己的密码<br>
-5.将项目放入tomcat9中运行即可。
+
 
 
 
